@@ -45,7 +45,7 @@
 					[% FOREACH option_minor IN
 					ordered_versions.item(option_version) %]
 					<a class='dropdown-item minor-version'
-						href="/5.[% option_version %].[% option_minor %]">5.[%
+						href="/5.[% option_version %].[% option_minor %]/[% pageaddress %]">5.[%
 						option_version %].[% option_minor %]</a>
 					[% END %]
 					[% UNLESS loop.last %]
